@@ -23,7 +23,7 @@ module.exports = (db) => {
       console.error(err.message);
     }
   });
-  //get a specifit todo
+  //get a specific todo
   router.get("/:1d", (req, res) => {
     try {
 
