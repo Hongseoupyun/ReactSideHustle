@@ -1,0 +1,38 @@
+.slider{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  width: 1000px;
+  height:600px;
+  border-radius: 10px;
+}
+.left{
+  position:absolute;
+  top:50%;
+  left:32px;
+  z-index:10;
+  cursor: pointer;
+  user-select: none;
+}
+.right{
+  position:absolute;
+  top:50%;
+  right:32px;
+  z-index:10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide{
+  opacity: 0;
+  transition: 1s ease;
+}
+.active{
+  opacity: 1;
+  transition: 1s ease;
+  transform: scale(1.08);
+}
