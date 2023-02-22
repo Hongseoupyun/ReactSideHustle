@@ -12,6 +12,7 @@ function Home() {
       <a href="/7" ><div>Pagination</div></a>
       <a href="/8" ><div>User Auth</div></a>
       <a href="/9" ><div>Input To do </div></a>
+      <a href="/11"><div>UseReducer</div></a>
     </div>
   )
 }

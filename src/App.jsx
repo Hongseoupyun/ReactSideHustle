@@ -11,6 +11,7 @@ import Pagination from "./Components/Pagination";
 import UserAuth from "./Components/UserAuth"
 import UserAuthRegister from "./Components/UserAuthRegister";
 import InputTodo from "./Components/InputTodo";
+import UseReducer from "./Components/UseReducer";
 
 function App() {
   return (
@@ -28,7 +29,10 @@ function App() {
       <Route path="8" element={<UserAuth />}></Route>
       <Route path="9" element={<UserAuthRegister />}></Route>
       <Route path="10" element={<InputTodo />}></Route>
+      <Route path="11" element={<UseReducer />}></Route>
+      
     </Routes>
+  
   );
 }
 export default App;
