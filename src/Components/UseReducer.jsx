@@ -1,10 +1,15 @@
 import React, { useState, useReducer } from "react";
 
+const ACTION_TYPES = {
+  deposit: "deposit",
+  withdraw: "withdraw",
+};
+
 const reducer = (state, action) => {
   switch (action.type) {
-    case "deposit":
+    case ACTION_TYPES.deposit:
       return state + action.payload;
-    case "withdraw":
+    case ACTION_TYPES.withdraw:
       return state - action.payload;
     default:
       return state;
