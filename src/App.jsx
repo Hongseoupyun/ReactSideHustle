@@ -12,6 +12,7 @@ import UserAuth from "./Components/UserAuth"
 import UserAuthRegister from "./Components/UserAuthRegister";
 import InputTodo from "./Components/InputTodo";
 import UseReducer from "./Components/UseReducer";
+import UseReducer2 from "./Components/UseReducer2";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <Route path="9" element={<UserAuthRegister />}></Route>
       <Route path="10" element={<InputTodo />}></Route>
       <Route path="11" element={<UseReducer />}></Route>
-      
+      <Route path="12" element={<UseReducer2 />}></Route>
     </Routes>
   
   );
